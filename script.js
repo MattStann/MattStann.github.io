@@ -1,8 +1,8 @@
 $(document).ready(function() {
-   var apiRoot = 'https://shielded-meadow-35621.herokuapp.com/v1/task/';
-   //var trelloApiRoot = 'https://shielded-meadow-35621.herokuapp.com/v1/trello/';
-   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
-   var tasksContainer = $('[data-tasks-container]');
+   const apiRoot = 'https://shielded-meadow-35621.herokuapp.com/v1/task/';
+   const trelloApiRoot = 'https://shielded-meadow-35621.herokuapp.com/v1/trello/';
+   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
+   const $tasksContainer = $('[data-tasks-container]');
 
    var availableBoards = {};
    var availableTasks = {};
